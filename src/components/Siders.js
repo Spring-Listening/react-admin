@@ -4,13 +4,13 @@
  * @Author: zoucw (zoucw@yunjiglobal.com)
  * @Date: 2019-10-01 16:39:41
  * @LastEditors: 
- * @LastEditTime: 2019-10-03 11:04:54
+ * @LastEditTime: 2019-10-03 16:04:28
  */
 import React, { Component } from 'react';
 import { Layout, Menu, Icon } from 'antd';
 import { Link } from 'react-router-dom'
 
-import '../styles/Sider.css'
+import '@/styles/Sider.scss'
 const { Sider } = Layout;
 
 

@@ -4,13 +4,13 @@
  * @Author: zoucw (zoucw@yunjiglobal.com)
  * @Date: 2019-10-02 13:33:56
  * @LastEditors: 
- * @LastEditTime: 2019-10-02 14:47:58
+ * @LastEditTime: 2019-10-03 15:41:08
  */
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 
-import Home from '../views/Home'
-import About from '../views/About'
+import Home from '@/views/Home'
+import About from '@/views/About'
 
 const BasicRoute = () => (
     <Switch>

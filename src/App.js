@@ -4,14 +4,14 @@
  * @Author: zoucw (zoucw@yunjiglobal.com)
  * @Date: 2019-10-01 16:18:31
  * @LastEditors: 
- * @LastEditTime: 2019-10-02 14:47:47
+ * @LastEditTime: 2019-10-03 17:57:39
  */
 import React, { Component } from 'react';
 import { Layout } from 'antd';
-import ContentRouter from './routers'
-import Siders from './components/Siders';
-import Headers from './components/Headers';
-import Footers from './components/Footers';
+import ContentRouter from '@/routers'
+import Siders from '@/components/Siders';
+import Headers from '@/components/Headers';
+import Footers from '@/components/Footers';
 
 const { Content } = Layout;
 class App extends Component {
